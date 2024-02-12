@@ -1,0 +1,22 @@
+.games-container{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.games-list-container{
+    margin-top: 3rem;
+}
+.games-list{
+    display: flex;
+    align-items: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.game-itam{
+    width: 22%;
+}
+.game-image img{
+    width: 100%;
+    border: solid 2px rgb(240, 172, 0);
+    border-radius: 12px;
+}

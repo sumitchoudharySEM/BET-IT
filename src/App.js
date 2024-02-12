@@ -18,6 +18,7 @@ import './css/owl.theme.default.min.css';
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
+import Games from "./components/games";
 
 
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="about" element={<About />} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
+      <Games/>
       
       <Footer/>
 
