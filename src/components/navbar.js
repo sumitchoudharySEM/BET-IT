@@ -1,15 +1,11 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-// import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import logo from '../images/crox_logo.png'; // Import your logo image
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function navbar() {
   return (
-    
-      
     <header>
         <div className="container navi-cont">
           <nav className="navbar navbar-expand-lg navbar-light">
@@ -43,11 +39,9 @@ export default function navbar() {
                   <a className="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li className="nav-item mr-1 ml-0">
-                  <a className="nav-link login_btn" href="login.html">Log in</a>
+                <ConnectButton />
                 </li>
-                <li className="nav-item ml-0">
-                  <a className="nav-link signup_btn" href="signup.html">Sign Up</a>
-                </li>
+                
               </ul>
             </div>
           </nav>
