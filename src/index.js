@@ -10,14 +10,14 @@ import "@rainbow-me/rainbowkit/styles.css";
 
 import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { configureChains, createConfig, WagmiConfig } from "wagmi";
-import { mainnet, polygon, optimism, arbitrum, base, zora, goerli } from "wagmi/chains";
+import { mainnet, polygon, optimism, arbitrum, base, zora, goerli, mantleTestnet } from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 //end of import for rainbowkit
 
 // Configure the chains
 const { chains, publicClient } = configureChains(
-  [mainnet, polygon, optimism, arbitrum, base, zora, goerli],
+  [mantleTestnet],
   [publicProvider()]
 );
 //i will use this while actually deploying 
