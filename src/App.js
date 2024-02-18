@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
 import Coinflipgame from "./components/games/coinflipgame";
+import Coinflipgamefront from "./components/games/coinflipfrontend";
 import Navbar from "./components/navbar";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="about" element={<About />} />
           {/* <Route path="*" element={<NoPage />} /> */}
           <Route path="/game/coinflip" element={<Coinflipgame />} />
+          <Route path="/coinflip" element={<Coinflipgamefront />} />
         </Routes>
       </div>
       <Footer />
