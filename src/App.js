@@ -29,7 +29,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           {/* <Route path="*" element={<NoPage />} /> */}
-          <Route path="/game/coinflip" element={<Coinflipgame />} />
+          {/* <Route path="/game/coinflip" element={<Coinflipgame />} /> */}
           <Route path="/coinflip" element={<Coinflipgamefront />} />
         </Routes>
       </div>

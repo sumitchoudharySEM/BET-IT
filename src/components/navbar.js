@@ -39,7 +39,7 @@ export default function navbar() {
                   <a className="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li className="nav-item mr-1 ml-0">
-                <ConnectButton />
+                {/* <ConnectButton /> */}
                 </li>
                 
               </ul>

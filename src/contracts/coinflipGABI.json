@@ -15,9 +15,9 @@
 		"name": "StartGame",
 		"outputs": [
 			{
-				"internalType": "string",
+				"internalType": "bool",
 				"name": "",
-				"type": "string"
+				"type": "bool"
 			}
 		],
 		"stateMutability": "payable",
@@ -69,9 +69,22 @@
 				"type": "bool"
 			},
 			{
-				"internalType": "string",
+				"internalType": "bool",
 				"name": "GameResult",
-				"type": "string"
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getRandomResult",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
 			}
 		],
 		"stateMutability": "view",
@@ -133,9 +146,9 @@
 						"type": "bool"
 					},
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "GameResult",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"internalType": "struct CoinFlip.Game",

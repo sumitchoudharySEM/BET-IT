@@ -16,24 +16,14 @@
     position: relative;
   }
   
-  .coin {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Add animation for spinning effect */
-  }
-  
+ 
   .wallet-info {
     background-color: #add8e6;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 30%;
+    height: 100%;
+    
   }
   
   input {
